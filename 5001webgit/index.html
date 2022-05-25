@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>响应式登录页面</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">登录</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="用户名" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="密码" />
+            </div>
+            <input type="submit" value="立即登录" class="btn solid" />
+            <p class="social-text">通过其他方式</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-qq"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weixin"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weibo"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-alipay"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">注册</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="用户名" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="邮箱" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="密码" />
+            </div>
+            <input type="submit" class="btn" value="立即注册" />
+            <p class="social-text">通过其他方式</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-qq"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weixin"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weibo"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-alipay"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>快加入我们</h3>
+            <p>
+             加入我们，成为5001的尊贵vip
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+             去注册
+            </button>
+          </div>
+          <img src="img/cpleft.svg" class="image" alt="浏览器暂时不支持该图片格式" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>已有账号！</h3>
+            <p>
+             立即登录已有帐号，5001给你带来的快乐吧！
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              去登录
+            </button>
+          </div>
+          <img src="img/cpright.svg" class="image" alt="浏览器格式不支持显示" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
